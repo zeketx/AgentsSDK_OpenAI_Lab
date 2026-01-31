@@ -5,6 +5,10 @@
 .gemini/
 .opencode/
 
+#google creds
+gmail_credentials.json
+gmail_token.pickle
+
 # Environment
 .env
 .env.local
