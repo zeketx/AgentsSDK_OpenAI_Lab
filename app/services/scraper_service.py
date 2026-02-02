@@ -2,18 +2,12 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, HttpUrl
 from bs4 import BeautifulSoup
 import httpx
-import hashlib
-import json
 import os
-import redis
 
 
 app = FastAPI(title="Scraper Service")
 
 
-redis_url = os.getenv("REDIS_URL", "redis://localhost:6379/0")
-redis_client = redis.Redis.from_url(redis_url, decode_responses=True)
-cache_ttl_seconds = int(os.getenv("SCRAPER_CACHE_TTL_SECONDS", "900"))
 max_bytes = int(os.getenv("SCRAPER_MAX_BYTES", "2000000"))
 
 
@@ -51,16 +45,6 @@ def _extract_links(soup: BeautifulSoup, base_url: str) -> list[str]:
 
 @app.post("/scrape", response_model=ScrapeResponse)
 async def scrape_page(request: ScrapeRequest) -> ScrapeResponse:
-    cache_key = _cache_key(request)
-    cached = None
-    try:
-        cached = redis_client.get(cache_key)
-    except redis.RedisError:
-        cached = None
-    if cached:
-        payload = json.loads(cached)
-        return ScrapeResponse(**payload, cache_status="hit")
-
     headers = {
         "User-Agent": "PersonalAssistantScraper/0.1",
         "Accept": "text/html,application/xhtml+xml",
@@ -104,22 +88,6 @@ async def scrape_page(request: ScrapeRequest) -> ScrapeResponse:
         text_content=text_content,
         links=links,
         extracted=extracted,
-        cache_status="miss",
+        cache_status="bypass",
     )
-
-    try:
-        redis_client.setex(cache_key, cache_ttl_seconds, result.json())
-    except redis.RedisError:
-        result.cache_status = "bypass"
     return result
-
-
-def _cache_key(request: ScrapeRequest) -> str:
-    key_payload = {
-        "url": str(request.url),
-        "format": request.format,
-        "selectors": request.selectors,
-    }
-    raw = json.dumps(key_payload, sort_keys=True)
-    digest = hashlib.sha256(raw.encode("utf-8")).hexdigest()
-    return f"scrape:{digest}"

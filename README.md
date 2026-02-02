@@ -4,7 +4,7 @@ Multi-agent AI assistant with specialized agents for research, travel planning, 
 
 ## Features
 
-- **🔍 Research Agent** - Web scraping and research tasks with Redis caching
+- **🔍 Research Agent** - Web scraping and research tasks
 - **✈️ Travel Agent** - Flight search via SerpAPI Google Flights (one-way & round-trip)
 - **💼 Jobs Agent** - Job search via SerpAPI Google Jobs with filters
 - **📧 Gmail Agent** - Inbox organization, email categorization, and label management
@@ -33,9 +33,20 @@ Create a `.env` file using `.env.example`:
 OPENAI_API_KEY=your_key_here
 SERPAPI_API_KEY=your_serpapi_key_here
 SCRAPER_SERVICE_URL=http://localhost:8001
-REDIS_URL=redis://localhost:6379/0
-SCRAPER_CACHE_TTL_SECONDS=900
 SCRAPER_MAX_BYTES=2000000
+
+# Bright Data proxy (for BizBuySell scraping)
+BRIGHTDATA_PROXY_URL=http://username:password@host:port
+# Or use separate fields
+BRIGHTDATA_PROXY_HOST=host
+BRIGHTDATA_PROXY_PORT=port
+BRIGHTDATA_PROXY_USERNAME=username
+BRIGHTDATA_PROXY_PASSWORD=password
+
+# Bright Data Web Unlocker
+BRIGHTDATA_USE_WEB_UNLOCKER=true
+BRIGHTDATA_UNLOCKER_ZONE=web_unlocker
+BRIGHTDATA_UNLOCKER_API_TOKEN=your_unlocker_api_token
 ```
 
 ### Getting API Keys
@@ -59,9 +70,7 @@ uvicorn app.services.scraper_service:app --host 0.0.0.0 --port 8001
 
 ### 2. Redis Cache (Optional)
 
-```bash
-redis-server
-```
+Redis is no longer required for scraping.
 
 ### 3. Main Agent Orchestrator
 
@@ -139,7 +148,7 @@ app/
 ### Researcher Agent
 - `scrape_url()` - Extract content from web pages
 - `get_research_summary()` - Research topics (simulated)
-- Integrates with Scraper Service and Redis cache
+- Integrates with Scraper Service and Bright Data Unlocker when enabled
 
 ### Travel Agent
 - `search_one_way_flight()` - Search one-way flights
@@ -174,11 +183,7 @@ SCRAPER_MAX_BYTES=2000000  # 2MB default
 
 ### Redis Cache
 
-Scraper results are cached for 15 minutes (900 seconds) by default:
-
-```
-SCRAPER_CACHE_TTL_SECONDS=900
-```
+Redis is not used by the scraper service.
 
 ## Testing
 

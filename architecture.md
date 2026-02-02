@@ -15,7 +15,9 @@ flowchart LR
     
     researcher -->|function tool| scraper[Scraper Service]
     scraper -->|HTTP| web[Web Pages]
-    scraper -->|cache| redis[(Redis)]
+    scraper -->|Unlocker API| unlocker[Bright Data Web Unlocker]
+    unlocker -->|HTTP| web
+    scraper -->|store| sqlite[(SQLite)]
     
     travel -->|function tool| serpapi[SerpAPI Client]
     serpapi -->|HTTP| serpapi_service[SerpAPI/Google Flights]
@@ -69,6 +71,8 @@ flowchart LR
     
     subgraph "Services"
         sc[scraper_service.py<br/>FastAPI microservice]
+        bd[Bright Data Web Unlocker]
+        db[(SQLite)]
         serp[serpapi_client.py<br/>Google Flights API]
         gj[google_jobs_client.py<br/>Google Jobs API]
         gm[gmail_client.py<br/>Gmail API]
@@ -77,12 +81,12 @@ flowchart LR
     subgraph "External APIs"
         web[Web Pages]
         serpapi[SerpAPI]
-        redis[(Redis Cache)]
         gmailapi[Gmail API]
     end
     
     rt --> sc --> web
-    sc --> redis
+    sc --> bd --> web
+    sc --> db
     ft --> serp --> serpapi
     jt --> gj --> serpapi
     gt --> gm --> gmailapi

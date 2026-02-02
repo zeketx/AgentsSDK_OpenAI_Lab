@@ -6,19 +6,19 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from agents import Runner  # From openai-agents-sdk package
+from fastapi import FastAPI
 from app.agents.orchestrator import orchestrator_agent
-from app.core.config import get_model_config
+from app.database import init_db
+from app.scheduler.scrape_job import start_scheduler
+from app.api.listings import router as listings_router
 
 
 async def main():
     print("🤖 Agent System Initialized. Type 'exit' to quit.")
 
-    # Initialize the shared configuration
-    # By default, this looks for OPENAI_API_KEY in environment variables
-    config = get_model_config()
+    init_db()
+    start_scheduler()
 
-    # We maintain a conversation context
-    # In a real app, you might persist this or manage it differently
     context = None
 
     while True:
@@ -27,16 +27,9 @@ async def main():
             if user_input.lower() in ["exit", "quit"]:
                 break
 
-            # Run the agent system
-            # We start with the orchestrator_agent
-            result = await Runner.run(
-                orchestrator_agent, user_input, config=config, context=context
-            )
+            result = await Runner.run(orchestrator_agent, user_input, context=context)
 
-            # Update context for the next turn (maintains conversation history)
             context = result.context
-
-            # Print the final response from whichever agent handled it
             print(f"\n{result.current_agent.name}: {result.final_output}")
 
         except KeyboardInterrupt:
@@ -51,3 +44,7 @@ if __name__ == "__main__":
         print("⚠️  Warning: No .env file found. Make sure OPENAI_API_KEY is set.")
 
     asyncio.run(main())
+
+
+app = FastAPI(title="BizBuySell Listings API")
+app.include_router(listings_router)
