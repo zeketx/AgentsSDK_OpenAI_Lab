@@ -13,6 +13,32 @@ Multi-agent AI assistant with specialized agents for research, travel planning, 
 
 See detailed architecture diagrams in `architecture.md`
 
+```mermaid
+flowchart LR
+    user[User] --> orchestrator[Orchestrator Agent]
+
+    orchestrator --> researcher[Researcher Agent]
+    orchestrator --> travel[Travel Agent]
+    orchestrator --> jobs[Jobs Agent]
+    orchestrator --> gmail[Gmail Agent]
+
+    researcher --> scraper[Scraper Service]
+    scraper --> unlocker[Bright Data Web Unlocker]
+    unlocker --> web[Web Pages]
+    scraper --> sqlite[(SQLite)]
+
+    travel --> serp[SerpAPI Client]
+    serp --> serpapi[SerpAPI/Google Flights]
+
+    jobs --> jobs_client[Google Jobs Client]
+    jobs_client --> serpapi
+
+    gmail --> gmail_client[Gmail Client]
+    gmail_client --> gmail_api[Gmail API]
+
+    orchestrator --> user
+```
+
 ```
 User → Orchestrator Agent → Specialist Agents (Researcher/Travel/Jobs/Gmail) → Services → APIs
 ```
