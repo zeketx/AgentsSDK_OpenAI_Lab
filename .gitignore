@@ -1,13 +1,22 @@
 # Platform-specific folders (local only)
 .agent/
 .agents/
-.claude/
 .gemini/
 .opencode/
+
+# Claude Code - keep shareable config, ignore local/personal
+.claude/settings.local.json
+.claude/skills/
+.claude/agents/
+.claude/plans/
+.claude/hooks/__pycache__/
 
 #google creds
 gmail_credentials.json
 gmail_token.pickle
+
+# Logs
+logs/
 
 # Environment
 .env

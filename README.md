@@ -1,13 +1,14 @@
-# Personal Assistant MVP
+# OpenAI Agents SDK - Personal Assistant
 
-Multi-agent AI assistant with specialized agents for research, travel planning, job search, and Gmail inbox management.
+Multi-agent AI assistant built with **OpenAI Agents SDK**, featuring specialized agents for research, travel planning, job search, and Gmail inbox management. Includes BizBuySell scraping integration and Claude Code development hooks.
 
 ## Features
 
-- **🔍 Research Agent** - Web scraping and research tasks
+- **🔍 Research Agent** - Web scraping, research, and BizBuySell business listing scraper
 - **✈️ Travel Agent** - Flight search via SerpAPI Google Flights (one-way & round-trip)
 - **💼 Jobs Agent** - Job search via SerpAPI Google Jobs with filters
 - **📧 Gmail Agent** - Inbox organization, email categorization, and label management
+- **🪝 Claude Code Hooks** - Custom development hooks (UserPromptSubmit logger) + comprehensive docs in `ai_docs/`
 
 ## Architecture
 
@@ -141,6 +142,12 @@ Show me unread emails from last month
 ## Project Structure
 
 ```
+.claude/                         # Claude Code hooks & config
+├── hooks/user_prompt_submit.py  # Logs prompts to logs/prompt_journal.jsonl
+└── settings.json                # Hook configuration
+
+ai_docs/                         # Claude Code documentation (hooks, MCP, subagents)
+
 app/
 ├── agents/
 │   ├── orchestrator.py      # Main entry point, routes to specialists
@@ -162,6 +169,9 @@ app/
 ├── core/
 │   └── config.py            # Model configuration
 └── main.py                  # CLI entry point
+
+logs/prompt_journal.jsonl        # Auto-generated prompt log (via hook)
+bizbuysell_listings.db           # SQLite DB for business listings
 ```
 
 ## Agent Capabilities
@@ -173,8 +183,9 @@ app/
 
 ### Researcher Agent
 - `scrape_url()` - Extract content from web pages
+- `scrape_bizbuysell()` - Scrape business listings from BizBuySell (stored in SQLite)
 - `get_research_summary()` - Research topics (simulated)
-- Integrates with Scraper Service and Bright Data Unlocker when enabled
+- Integrates with Scraper Service and Bright Data Web Unlocker
 
 ### Travel Agent
 - `search_one_way_flight()` - Search one-way flights
