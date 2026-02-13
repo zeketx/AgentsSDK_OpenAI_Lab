@@ -8,3 +8,5 @@ apscheduler
 sqlalchemy
 alembic
 playwright
+gspread
+google-auth

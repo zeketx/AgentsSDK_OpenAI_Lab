@@ -1,0 +1,409 @@
+2026-02-12 21:00:34 | INFO | ==================================================
+2026-02-12 21:00:34 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:34 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:34 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/__init__.py
+2026-02-12 21:00:34 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:37 | INFO | ==================================================
+2026-02-12 21:00:37 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:37 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:37 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/__init__.py
+2026-02-12 21:00:37 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:37 | INFO | ==================================================
+2026-02-12 21:00:37 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:37 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:37 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/__init__.py
+2026-02-12 21:00:37 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:37 | INFO | ==================================================
+2026-02-12 21:00:37 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:37 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:37 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/__init__.py
+2026-02-12 21:00:37 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:38 | INFO | ==================================================
+2026-02-12 21:00:38 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:38 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:38 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/__init__.py
+2026-02-12 21:00:38 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/__init__.py
+2026-02-12 21:00:38 | INFO |   All checks passed!
+2026-02-12 21:00:38 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:38 | INFO | ==================================================
+2026-02-12 21:00:38 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:38 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:38 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/__init__.py
+2026-02-12 21:00:38 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/__init__.py
+2026-02-12 21:00:38 | INFO |   All checks passed!
+2026-02-12 21:00:38 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:38 | INFO | ==================================================
+2026-02-12 21:00:38 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:38 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:38 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/data/leadgen/.gitkeep
+2026-02-12 21:00:38 | INFO | Skipping non-Python file
+2026-02-12 21:00:50 | INFO | ==================================================
+2026-02-12 21:00:50 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:50 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:50 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:00:50 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:00:50 | INFO |   All checks passed!
+2026-02-12 21:00:50 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:00:56 | INFO | ==================================================
+2026-02-12 21:00:56 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:56 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:56 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:00:56 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:00:56 | INFO |   All checks passed!
+2026-02-12 21:00:56 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:01:03 | INFO | ==================================================
+2026-02-12 21:01:03 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:03 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:03 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:03 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:03 | INFO |   F401 [*] `json` imported but unused
+2026-02-12 21:01:03 | INFO |    --> app/leadgen/enrich/cache.py:1:8
+2026-02-12 21:01:03 | INFO |     |
+2026-02-12 21:01:03 | INFO |   1 | import json
+2026-02-12 21:01:03 | INFO |     |        ^^^^
+2026-02-12 21:01:03 | INFO |   2 | import sqlite3
+2026-02-12 21:01:03 | INFO |   3 | from datetime import datetime, timedelta
+2026-02-12 21:01:03 | INFO |     |
+2026-02-12 21:01:03 | INFO |   help: Remove unused import: `json`
+2026-02-12 21:01:03 | INFO |   
+2026-02-12 21:01:03 | INFO |   Found 1 error.
+2026-02-12 21:01:03 | INFO |   [*] 1 fixable with the `--fix` option.
+2026-02-12 21:01:03 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:01:08 | INFO | ==================================================
+2026-02-12 21:01:08 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:08 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:08 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:08 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:08 | INFO |   F401 [*] `typing.Any` imported but unused
+2026-02-12 21:01:08 | INFO |    --> app/leadgen/ingest/base.py:4:20
+2026-02-12 21:01:08 | INFO |     |
+2026-02-12 21:01:08 | INFO |   2 | import json
+2026-02-12 21:01:08 | INFO |   3 | import os
+2026-02-12 21:01:08 | INFO |   4 | from typing import Any
+2026-02-12 21:01:08 | INFO |     |                    ^^^
+2026-02-12 21:01:08 | INFO |   5 |
+2026-02-12 21:01:08 | INFO |   6 | from app.leadgen.models import RawRecord
+2026-02-12 21:01:08 | INFO |     |
+2026-02-12 21:01:08 | INFO |   help: Remove unused import: `typing.Any`
+2026-02-12 21:01:08 | INFO |   
+2026-02-12 21:01:08 | INFO |   Found 1 error.
+2026-02-12 21:01:08 | INFO |   [*] 1 fixable with the `--fix` option.
+2026-02-12 21:01:08 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:01:14 | INFO | ==================================================
+2026-02-12 21:01:14 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:14 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:14 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:14 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:14 | INFO |   All checks passed!
+2026-02-12 21:01:14 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:01:15 | INFO | ==================================================
+2026-02-12 21:01:15 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:15 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:15 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:15 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:15 | INFO |   All checks passed!
+2026-02-12 21:01:15 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:02:49 | INFO | ==================================================
+2026-02-12 21:02:49 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:49 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:49 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:02:49 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:02:50 | INFO |   All checks passed!
+2026-02-12 21:02:50 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:02:50 | INFO | ==================================================
+2026-02-12 21:02:50 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:50 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:50 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:02:50 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:02:50 | INFO |   All checks passed!
+2026-02-12 21:02:50 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:02:54 | INFO | ==================================================
+2026-02-12 21:02:54 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:54 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:54 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/requirements.txt
+2026-02-12 21:02:54 | INFO | Skipping non-Python file
+2026-02-12 21:02:58 | INFO | ==================================================
+2026-02-12 21:02:58 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:58 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:58 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/.env.example
+2026-02-12 21:02:58 | INFO | Skipping non-Python file
+2026-02-12 21:06:54 | INFO | ==================================================
+2026-02-12 21:06:54 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:06:54 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:06:54 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:06:54 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:06:54 | INFO |   All checks passed!
+2026-02-12 21:06:54 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:07:33 | INFO | ==================================================
+2026-02-12 21:07:33 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:07:33 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:07:33 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:07:33 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:07:33 | INFO |   All checks passed!
+2026-02-12 21:07:33 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:08:06 | INFO | ==================================================
+2026-02-12 21:08:06 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:08:06 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:08:06 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/contracts.py
+2026-02-12 21:08:06 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/contracts.py
+2026-02-12 21:08:06 | INFO |   All checks passed!
+2026-02-12 21:08:06 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:08:47 | INFO | ==================================================
+2026-02-12 21:08:47 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:08:47 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:08:47 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/licenses.py
+2026-02-12 21:08:47 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/licenses.py
+2026-02-12 21:08:47 | INFO |   All checks passed!
+2026-02-12 21:08:47 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:12:01 | INFO | ==================================================
+2026-02-12 21:12:01 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:01 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:01 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:12:01 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:12:02 | INFO |   F841 Local variable `county` is assigned to but never used
+2026-02-12 21:12:02 | INFO |      --> app/leadgen/normalize/normalizer.py:101:9
+2026-02-12 21:12:02 | INFO |       |
+2026-02-12 21:12:02 | INFO |    99 |         # City: use first non-empty
+2026-02-12 21:12:02 | INFO |   100 |         city = next((r.city for r in group_records if r.city), None)
+2026-02-12 21:12:02 | INFO |   101 |         county = next((r.county for r in group_records if r.county), None)
+2026-02-12 21:12:02 | INFO |       |         ^^^^^^
+2026-02-12 21:12:02 | INFO |   102 |
+2026-02-12 21:12:02 | INFO |   103 |         # Contract info: concatenate titles
+2026-02-12 21:12:02 | INFO |       |
+2026-02-12 21:12:02 | INFO |   help: Remove assignment to unused variable `county`
+2026-02-12 21:12:02 | INFO |   
+2026-02-12 21:12:02 | INFO |   E741 Ambiguous variable name: `l`
+2026-02-12 21:12:02 | INFO |      --> app/leadgen/normalize/normalizer.py:155:50
+2026-02-12 21:12:02 | INFO |       |
+2026-02-12 21:12:02 | INFO |   153 |     path = os.path.join(output_dir, filename)
+2026-02-12 21:12:02 | INFO |   154 |     with open(path, "w", encoding="utf-8") as f:
+2026-02-12 21:12:02 | INFO |   155 |         json.dump([l.model_dump(mode="json") for l in leads], f, indent=2, default=str)
+2026-02-12 21:12:02 | INFO |       |                                                  ^
+2026-02-12 21:12:02 | INFO |   156 |     return path
+2026-02-12 21:12:02 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:12:26 | INFO | ==================================================
+2026-02-12 21:12:26 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:26 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:26 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:12:26 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:12:26 | INFO |   E741 Ambiguous variable name: `l`
+2026-02-12 21:12:26 | INFO |      --> app/leadgen/enrich/website_discovery.py:183:50
+2026-02-12 21:12:26 | INFO |       |
+2026-02-12 21:12:26 | INFO |   181 |     path = os.path.join(output_dir, "leads_with_websites.json")
+2026-02-12 21:12:26 | INFO |   182 |     with open(path, "w", encoding="utf-8") as f:
+2026-02-12 21:12:26 | INFO |   183 |         json.dump([l.model_dump(mode="json") for l in leads], f, indent=2, default=str)
+2026-02-12 21:12:26 | INFO |       |                                                  ^
+2026-02-12 21:12:26 | INFO |   184 |     return path
+2026-02-12 21:12:26 | INFO |       |
+2026-02-12 21:12:26 | INFO |   
+2026-02-12 21:12:26 | INFO |   Found 1 error.
+2026-02-12 21:12:26 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:12:34 | INFO | ==================================================
+2026-02-12 21:12:34 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:34 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:34 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:12:34 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:12:34 | INFO |   F401 [*] `typing.Optional` imported but unused
+2026-02-12 21:12:34 | INFO |    --> app/leadgen/enrich/pagespeed.py:5:20
+2026-02-12 21:12:34 | INFO |     |
+2026-02-12 21:12:34 | INFO |   3 | from __future__ import annotations
+2026-02-12 21:12:34 | INFO |   4 | import logging
+2026-02-12 21:12:34 | INFO |   5 | from typing import Optional
+2026-02-12 21:12:34 | INFO |     |                    ^^^^^^^^
+2026-02-12 21:12:34 | INFO |   6 |
+2026-02-12 21:12:34 | INFO |   7 | import httpx  # ty: ignore[unresolved-import]
+2026-02-12 21:12:34 | INFO |     |
+2026-02-12 21:12:34 | INFO |   help: Remove unused import: `typing.Optional`
+2026-02-12 21:12:34 | INFO |   
+2026-02-12 21:12:34 | INFO |   Found 1 error.
+2026-02-12 21:12:34 | INFO |   [*] 1 fixable with the `--fix` option.
+2026-02-12 21:12:34 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:12:46 | INFO | ==================================================
+2026-02-12 21:12:46 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:46 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:46 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:12:46 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:12:46 | INFO |   F401 [*] `typing.Optional` imported but unused
+2026-02-12 21:12:46 | INFO |    --> app/leadgen/enrich/wappalyzer.py:5:20
+2026-02-12 21:12:46 | INFO |     |
+2026-02-12 21:12:46 | INFO |   3 | from __future__ import annotations
+2026-02-12 21:12:46 | INFO |   4 | import logging
+2026-02-12 21:12:46 | INFO |   5 | from typing import Optional
+2026-02-12 21:12:46 | INFO |     |                    ^^^^^^^^
+2026-02-12 21:12:46 | INFO |   6 |
+2026-02-12 21:12:46 | INFO |   7 | import httpx  # ty: ignore[unresolved-import]
+2026-02-12 21:12:46 | INFO |     |
+2026-02-12 21:12:46 | INFO |   help: Remove unused import: `typing.Optional`
+2026-02-12 21:12:46 | INFO |   
+2026-02-12 21:12:46 | INFO |   Found 1 error.
+2026-02-12 21:12:46 | INFO |   [*] 1 fixable with the `--fix` option.
+2026-02-12 21:12:46 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:13:04 | INFO | ==================================================
+2026-02-12 21:13:04 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:04 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:04 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:04 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:05 | INFO |   E741 Ambiguous variable name: `l`
+2026-02-12 21:13:05 | INFO |      --> app/leadgen/enrich/enricher.py:102:34
+2026-02-12 21:13:05 | INFO |       |
+2026-02-12 21:13:05 | INFO |   101 |         total = len(leads)
+2026-02-12 21:13:05 | INFO |   102 |         with_website = sum(1 for l in leads if l.website)
+2026-02-12 21:13:05 | INFO |       |                                  ^
+2026-02-12 21:13:05 | INFO |   103 |         enriched = sum(1 for _, e in results if e is not None)
+2026-02-12 21:13:05 | INFO |       |
+2026-02-12 21:13:05 | INFO |   
+2026-02-12 21:13:05 | INFO |   Found 1 error.
+2026-02-12 21:13:05 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:13:10 | INFO | ==================================================
+2026-02-12 21:13:10 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:10 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:10 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:10 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:10 | INFO |   E741 Ambiguous variable name: `l`
+2026-02-12 21:13:10 | INFO |      --> app/leadgen/normalize/normalizer.py:154:50
+2026-02-12 21:13:10 | INFO |       |
+2026-02-12 21:13:10 | INFO |   152 |     path = os.path.join(output_dir, filename)
+2026-02-12 21:13:10 | INFO |   153 |     with open(path, "w", encoding="utf-8") as f:
+2026-02-12 21:13:10 | INFO |   154 |         json.dump([l.model_dump(mode="json") for l in leads], f, indent=2, default=str)
+2026-02-12 21:13:10 | INFO |       |                                                  ^
+2026-02-12 21:13:10 | INFO |   155 |     return path
+2026-02-12 21:13:10 | INFO |       |
+2026-02-12 21:13:10 | INFO |   
+2026-02-12 21:13:10 | INFO |   Found 1 error.
+2026-02-12 21:13:10 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:13:12 | INFO | ==================================================
+2026-02-12 21:13:12 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:12 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:12 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:13:12 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:13:12 | INFO |   All checks passed!
+2026-02-12 21:13:12 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:13:13 | INFO | ==================================================
+2026-02-12 21:13:13 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:13 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:13 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:13:13 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:13:13 | INFO |   All checks passed!
+2026-02-12 21:13:13 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:13:14 | INFO | ==================================================
+2026-02-12 21:13:14 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:14 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:14 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:13:14 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:13:14 | INFO |   All checks passed!
+2026-02-12 21:13:14 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:13:16 | INFO | ==================================================
+2026-02-12 21:13:16 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:16 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:16 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:16 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:16 | INFO |   All checks passed!
+2026-02-12 21:13:16 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:13:24 | INFO | ==================================================
+2026-02-12 21:13:24 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:24 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:24 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:24 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:24 | INFO |   All checks passed!
+2026-02-12 21:13:24 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:33:15 | INFO | ==================================================
+2026-02-12 21:33:15 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:33:15 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:33:15 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/scorer.py
+2026-02-12 21:33:15 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/scorer.py
+2026-02-12 21:33:15 | INFO |   All checks passed!
+2026-02-12 21:33:15 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:33:31 | INFO | ==================================================
+2026-02-12 21:33:31 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:33:31 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:33:31 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:33:31 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:33:31 | INFO |   F401 [*] `typing.Optional` imported but unused
+2026-02-12 21:33:31 | INFO |    --> app/leadgen/export/sheets.py:6:20
+2026-02-12 21:33:31 | INFO |     |
+2026-02-12 21:33:31 | INFO |   4 | import logging
+2026-02-12 21:33:31 | INFO |   5 | from datetime import datetime
+2026-02-12 21:33:31 | INFO |   6 | from typing import Optional
+2026-02-12 21:33:31 | INFO |     |                    ^^^^^^^^
+2026-02-12 21:33:31 | INFO |   7 |
+2026-02-12 21:33:31 | INFO |   8 | from app.leadgen.models import ScoredLead
+2026-02-12 21:33:31 | INFO |     |
+2026-02-12 21:33:31 | INFO |   help: Remove unused import: `typing.Optional`
+2026-02-12 21:33:31 | INFO |   
+2026-02-12 21:33:31 | INFO |   Found 1 error.
+2026-02-12 21:33:31 | INFO |   [*] 1 fixable with the `--fix` option.
+2026-02-12 21:33:31 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:34:04 | INFO | ==================================================
+2026-02-12 21:34:04 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:34:04 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:34:04 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:04 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:04 | INFO |   F401 [*] `app.leadgen.enrich.enricher.load_enriched_leads` imported but unused
+2026-02-12 21:34:04 | INFO |     --> app/leadgen/pipeline.py:23:51
+2026-02-12 21:34:04 | INFO |      |
+2026-02-12 21:34:04 | INFO |   21 | from app.leadgen.config import config
+2026-02-12 21:34:04 | INFO |   22 | from app.leadgen.enrich.cache import EnrichmentCache
+2026-02-12 21:34:04 | INFO |   23 | from app.leadgen.enrich.enricher import Enricher, load_enriched_leads, save_enriched_leads
+2026-02-12 21:34:04 | INFO |      |                                                   ^^^^^^^^^^^^^^^^^^^
+2026-02-12 21:34:04 | INFO |   24 | from app.leadgen.enrich.website_discovery import discover_websites, save_leads_with_websites
+2026-02-12 21:34:04 | INFO |   25 | from app.leadgen.export.sheets import export_to_sheets
+2026-02-12 21:34:04 | INFO |      |
+2026-02-12 21:34:04 | INFO |   help: Remove unused import: `app.leadgen.enrich.enricher.load_enriched_leads`
+2026-02-12 21:34:04 | INFO |   
+2026-02-12 21:34:04 | INFO |   F401 [*] `app.leadgen.models.RawRecord` imported but unused
+2026-02-12 21:34:04 | INFO |     --> app/leadgen/pipeline.py:29:38
+2026-02-12 21:34:04 | INFO |      |
+2026-02-12 21:34:04 | INFO |   27 | from app.leadgen.ingest.contracts import ContractsIngest
+2026-02-12 21:34:04 | INFO |   28 | from app.leadgen.ingest.licenses import LicensesIngest
+2026-02-12 21:34:04 | INFO |   29 | from app.leadgen.models import Lead, RawRecord, ScoredLead
+2026-02-12 21:34:04 | INFO |      |                                      ^^^^^^^^^
+2026-02-12 21:34:04 | INFO |   30 | from app.leadgen.normalize.normalizer import load_leads, run_normalization, save_leads
+2026-02-12 21:34:04 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:34:09 | INFO | ==================================================
+2026-02-12 21:34:09 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:34:09 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:34:09 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:34:09 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:34:09 | INFO |   All checks passed!
+2026-02-12 21:34:09 | INFO | RESULT: PASS - Lint check successful
+2026-02-12 21:34:39 | INFO | ==================================================
+2026-02-12 21:34:39 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:34:39 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:34:39 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:39 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:39 | INFO |   F401 [*] `datetime.timezone` imported but unused
+2026-02-12 21:34:39 | INFO |     --> app/leadgen/pipeline.py:16:32
+2026-02-12 21:34:39 | INFO |      |
+2026-02-12 21:34:39 | INFO |   14 | import os
+2026-02-12 21:34:39 | INFO |   15 | import sys
+2026-02-12 21:34:39 | INFO |   16 | from datetime import datetime, timezone
+2026-02-12 21:34:39 | INFO |      |                                ^^^^^^^^
+2026-02-12 21:34:39 | INFO |   17 |
+2026-02-12 21:34:39 | INFO |   18 | # Allow running from project root
+2026-02-12 21:34:39 | INFO |      |
+2026-02-12 21:34:39 | INFO |   help: Remove unused import: `datetime.timezone`
+2026-02-12 21:34:39 | INFO |   
+2026-02-12 21:34:39 | INFO |   F401 [*] `app.leadgen.enrich.enricher.load_enriched_leads` imported but unused
+2026-02-12 21:34:39 | INFO |     --> app/leadgen/pipeline.py:23:51
+2026-02-12 21:34:39 | INFO |      |
+2026-02-12 21:34:39 | INFO |   21 | from app.leadgen.config import config
+2026-02-12 21:34:39 | INFO |   22 | from app.leadgen.enrich.cache import EnrichmentCache
+2026-02-12 21:34:39 | INFO |   23 | from app.leadgen.enrich.enricher import Enricher, load_enriched_leads, save_enriched_leads
+2026-02-12 21:34:39 | INFO |      |                                                   ^^^^^^^^^^^^^^^^^^^
+2026-02-12 21:34:39 | INFO |   24 | from app.leadgen.enrich.website_discovery import discover_websites, save_leads_with_websites
+2026-02-12 21:34:39 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:35:18 | INFO | ==================================================
+2026-02-12 21:35:18 | INFO | RUFF VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:35:18 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:35:18 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:35:18 | INFO | Running: uvx ruff check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:35:18 | INFO |   All checks passed!
+2026-02-12 21:35:18 | INFO | RESULT: PASS - Lint check successful

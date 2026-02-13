@@ -1,0 +1,483 @@
+2026-02-12 21:00:34 | INFO | ==================================================
+2026-02-12 21:00:34 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:34 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:34 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/__init__.py
+2026-02-12 21:00:34 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/__init__.py
+2026-02-12 21:00:36 | INFO |   All checks passed!
+2026-02-12 21:00:36 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:00:37 | INFO | ==================================================
+2026-02-12 21:00:37 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:37 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:37 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/__init__.py
+2026-02-12 21:00:37 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:00:37 | INFO | ==================================================
+2026-02-12 21:00:37 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:37 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:37 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/__init__.py
+2026-02-12 21:00:37 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:00:37 | INFO | ==================================================
+2026-02-12 21:00:37 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:37 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:37 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/__init__.py
+2026-02-12 21:00:37 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/__init__.py
+2026-02-12 21:00:37 | INFO |   All checks passed!
+2026-02-12 21:00:37 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:00:38 | INFO | ==================================================
+2026-02-12 21:00:38 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:38 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:38 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/__init__.py
+2026-02-12 21:00:38 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/__init__.py
+2026-02-12 21:00:38 | INFO |   All checks passed!
+2026-02-12 21:00:38 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:00:38 | INFO | ==================================================
+2026-02-12 21:00:38 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:38 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:38 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/__init__.py
+2026-02-12 21:00:38 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/__init__.py
+2026-02-12 21:00:38 | INFO |   All checks passed!
+2026-02-12 21:00:38 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:00:38 | INFO | ==================================================
+2026-02-12 21:00:38 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:38 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:38 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/data/leadgen/.gitkeep
+2026-02-12 21:00:38 | INFO | Skipping non-Python file
+2026-02-12 21:00:50 | INFO | ==================================================
+2026-02-12 21:00:50 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:50 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:50 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:00:50 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:00:50 | INFO |   error[unresolved-import]: Cannot resolve imported module `pydantic`
+2026-02-12 21:00:50 | INFO |    --> app/leadgen/models.py:5:6
+2026-02-12 21:00:50 | INFO |     |
+2026-02-12 21:00:50 | INFO |   3 | from typing import Optional
+2026-02-12 21:00:50 | INFO |   4 | import uuid
+2026-02-12 21:00:50 | INFO |   5 | from pydantic import BaseModel, Field
+2026-02-12 21:00:50 | INFO |     |      ^^^^^^^^
+2026-02-12 21:00:50 | INFO |     |
+2026-02-12 21:00:50 | INFO |   info: Searched in the following paths during module resolution:
+2026-02-12 21:00:50 | INFO |   info:   1. /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk (first-party code)
+2026-02-12 21:00:50 | INFO |   info:   2. vendored://stdlib (stdlib typeshed stubs vendored by ty)
+2026-02-12 21:00:50 | INFO |   info:   3. /Users/ezekielmauricio/.cache/uv/environments-v2/ty-validator-1e06d8fee4ba1378/lib/python3.14/site-packages (site-packages)
+2026-02-12 21:00:50 | INFO |   info: make sure your Python environment is properly configured: https://docs.astral.sh/ty/modules/#python-environment
+2026-02-12 21:00:50 | INFO |   info: rule `unresolved-import` is enabled by default
+2026-02-12 21:00:50 | INFO |   
+2026-02-12 21:00:50 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:00:50 | INFO |     --> app/leadgen/models.py:36:59
+2026-02-12 21:00:50 | INFO |      |
+2026-02-12 21:00:50 | INFO |   34 |     website: Optional[str] = None
+2026-02-12 21:00:50 | INFO |   35 |     source_urls: list[str] = Field(default_factory=list)
+2026-02-12 21:00:50 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:00:56 | INFO | ==================================================
+2026-02-12 21:00:56 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:00:56 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:00:56 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:00:56 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:00:56 | INFO |   error[unresolved-import]: Cannot resolve imported module `dotenv`
+2026-02-12 21:00:56 | INFO |    --> app/leadgen/config.py:2:6
+2026-02-12 21:00:56 | INFO |     |
+2026-02-12 21:00:56 | INFO |   1 | import os
+2026-02-12 21:00:56 | INFO |   2 | from dotenv import load_dotenv
+2026-02-12 21:00:56 | INFO |     |      ^^^^^^
+2026-02-12 21:00:56 | INFO |   3 |
+2026-02-12 21:00:56 | INFO |   4 | load_dotenv()
+2026-02-12 21:00:56 | INFO |     |
+2026-02-12 21:00:56 | INFO |   info: Searched in the following paths during module resolution:
+2026-02-12 21:00:56 | INFO |   info:   1. /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk (first-party code)
+2026-02-12 21:00:56 | INFO |   info:   2. vendored://stdlib (stdlib typeshed stubs vendored by ty)
+2026-02-12 21:00:56 | INFO |   info:   3. /Users/ezekielmauricio/.cache/uv/environments-v2/ty-validator-1e06d8fee4ba1378/lib/python3.14/site-packages (site-packages)
+2026-02-12 21:00:56 | INFO |   info: make sure your Python environment is properly configured: https://docs.astral.sh/ty/modules/#python-environment
+2026-02-12 21:00:56 | INFO |   info: rule `unresolved-import` is enabled by default
+2026-02-12 21:00:56 | INFO |   
+2026-02-12 21:00:56 | INFO |   Found 1 diagnostic
+2026-02-12 21:00:56 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:01:03 | INFO | ==================================================
+2026-02-12 21:01:03 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:03 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:03 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:03 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:03 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:01:03 | INFO |     --> app/leadgen/enrich/cache.py:56:29
+2026-02-12 21:01:03 | INFO |      |
+2026-02-12 21:01:03 | INFO |   54 |         try:
+2026-02-12 21:01:03 | INFO |   55 |             enriched_at = datetime.fromisoformat(row[0])
+2026-02-12 21:01:03 | INFO |   56 |             return datetime.utcnow() - enriched_at < timedelta(days=ttl_days)
+2026-02-12 21:01:03 | INFO |      |                             ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:01:03 | INFO |   57 |         except Exception:
+2026-02-12 21:01:03 | INFO |   58 |             return False
+2026-02-12 21:01:03 | INFO |      |
+2026-02-12 21:01:03 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:01:03 | INFO |   
+2026-02-12 21:01:03 | INFO |   Found 1 diagnostic
+2026-02-12 21:01:03 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:01:08 | INFO | ==================================================
+2026-02-12 21:01:08 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:08 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:08 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:08 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:08 | INFO |   All checks passed!
+2026-02-12 21:01:08 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:01:14 | INFO | ==================================================
+2026-02-12 21:01:14 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:14 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:14 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:14 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/cache.py
+2026-02-12 21:01:14 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:01:14 | INFO |     --> app/leadgen/enrich/cache.py:55:29
+2026-02-12 21:01:14 | INFO |      |
+2026-02-12 21:01:14 | INFO |   53 |         try:
+2026-02-12 21:01:14 | INFO |   54 |             enriched_at = datetime.fromisoformat(row[0])
+2026-02-12 21:01:14 | INFO |   55 |             return datetime.utcnow() - enriched_at < timedelta(days=ttl_days)
+2026-02-12 21:01:14 | INFO |      |                             ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:01:14 | INFO |   56 |         except Exception:
+2026-02-12 21:01:14 | INFO |   57 |             return False
+2026-02-12 21:01:14 | INFO |      |
+2026-02-12 21:01:14 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:01:14 | INFO |   
+2026-02-12 21:01:14 | INFO |   Found 1 diagnostic
+2026-02-12 21:01:14 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:01:15 | INFO | ==================================================
+2026-02-12 21:01:15 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:01:15 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:01:15 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:15 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/base.py
+2026-02-12 21:01:15 | INFO |   All checks passed!
+2026-02-12 21:01:15 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:02:49 | INFO | ==================================================
+2026-02-12 21:02:49 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:49 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:49 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:02:49 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/models.py
+2026-02-12 21:02:50 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:02:50 | INFO |     --> app/leadgen/models.py:36:59
+2026-02-12 21:02:50 | INFO |      |
+2026-02-12 21:02:50 | INFO |   34 |     website: Optional[str] = None
+2026-02-12 21:02:50 | INFO |   35 |     source_urls: list[str] = Field(default_factory=list)
+2026-02-12 21:02:50 | INFO |   36 |     created_at: datetime = Field(default_factory=datetime.utcnow)
+2026-02-12 21:02:50 | INFO |      |                                                           ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:02:50 | INFO |      |
+2026-02-12 21:02:50 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:02:50 | INFO |   
+2026-02-12 21:02:50 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:02:50 | INFO |     --> app/leadgen/models.py:48:60
+2026-02-12 21:02:50 | INFO |      |
+2026-02-12 21:02:50 | INFO |   46 |     marketing_tools: list[str] = Field(default_factory=list)
+2026-02-12 21:02:50 | INFO |   47 |     tech_stack_summary: Optional[str] = None
+2026-02-12 21:02:50 | INFO |   48 |     enriched_at: datetime = Field(default_factory=datetime.utcnow)
+2026-02-12 21:02:50 | INFO |      |                                                            ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:02:50 | INFO |   49 |     error: Optional[str] = None
+2026-02-12 21:02:50 | INFO |      |
+2026-02-12 21:02:50 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:02:50 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:02:50 | INFO | ==================================================
+2026-02-12 21:02:50 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:50 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:50 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:02:50 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/config.py
+2026-02-12 21:02:50 | INFO |   All checks passed!
+2026-02-12 21:02:50 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:02:54 | INFO | ==================================================
+2026-02-12 21:02:54 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:54 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:54 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/requirements.txt
+2026-02-12 21:02:54 | INFO | Skipping non-Python file
+2026-02-12 21:02:58 | INFO | ==================================================
+2026-02-12 21:02:58 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:02:58 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:02:58 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/.env.example
+2026-02-12 21:02:58 | INFO | Skipping non-Python file
+2026-02-12 21:06:54 | INFO | ==================================================
+2026-02-12 21:06:54 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:06:54 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:06:54 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:06:54 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:06:54 | INFO |   error[unresolved-import]: Cannot resolve imported module `httpx`
+2026-02-12 21:06:54 | INFO |    --> app/leadgen/ingest/checkbook.py:3:8
+2026-02-12 21:06:54 | INFO |     |
+2026-02-12 21:06:54 | INFO |   1 | """Tennessee Searchable Checkbook ingest via Socrata SODA API."""
+2026-02-12 21:06:54 | INFO |   2 |
+2026-02-12 21:06:54 | INFO |   3 | import httpx
+2026-02-12 21:06:54 | INFO |     |        ^^^^^
+2026-02-12 21:06:54 | INFO |   4 | import logging
+2026-02-12 21:06:54 | INFO |   5 | from typing import Optional
+2026-02-12 21:06:54 | INFO |     |
+2026-02-12 21:06:54 | INFO |   info: Searched in the following paths during module resolution:
+2026-02-12 21:06:54 | INFO |   info:   1. /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk (first-party code)
+2026-02-12 21:06:54 | INFO |   info:   2. vendored://stdlib (stdlib typeshed stubs vendored by ty)
+2026-02-12 21:06:54 | INFO |   info:   3. /Users/ezekielmauricio/.cache/uv/environments-v2/ty-validator-1e06d8fee4ba1378/lib/python3.14/site-packages (site-packages)
+2026-02-12 21:06:54 | INFO |   info: make sure your Python environment is properly configured: https://docs.astral.sh/ty/modules/#python-environment
+2026-02-12 21:06:54 | INFO |   info: rule `unresolved-import` is enabled by default
+2026-02-12 21:06:54 | INFO |   
+2026-02-12 21:06:54 | INFO |   Found 1 diagnostic
+2026-02-12 21:06:54 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:07:33 | INFO | ==================================================
+2026-02-12 21:07:33 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:07:33 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:07:33 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:07:33 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/checkbook.py
+2026-02-12 21:07:33 | INFO |   All checks passed!
+2026-02-12 21:07:33 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:08:06 | INFO | ==================================================
+2026-02-12 21:08:06 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:08:06 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:08:06 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/contracts.py
+2026-02-12 21:08:06 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/contracts.py
+2026-02-12 21:08:06 | INFO |   All checks passed!
+2026-02-12 21:08:06 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:08:47 | INFO | ==================================================
+2026-02-12 21:08:47 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:08:47 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:08:47 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/licenses.py
+2026-02-12 21:08:47 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/ingest/licenses.py
+2026-02-12 21:08:47 | INFO |   All checks passed!
+2026-02-12 21:08:47 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:12:01 | INFO | ==================================================
+2026-02-12 21:12:01 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:01 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:01 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:12:01 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:12:02 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:12:02 | INFO |      --> app/leadgen/normalize/normalizer.py:129:33
+2026-02-12 21:12:02 | INFO |       |
+2026-02-12 21:12:02 | INFO |   127 |             license_info=license_info,
+2026-02-12 21:12:02 | INFO |   128 |             source_urls=source_urls,
+2026-02-12 21:12:02 | INFO |   129 |             created_at=datetime.utcnow(),
+2026-02-12 21:12:02 | INFO |       |                                 ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:12:02 | INFO |   130 |         ))
+2026-02-12 21:12:02 | INFO |       |
+2026-02-12 21:12:02 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:12:02 | INFO |   
+2026-02-12 21:12:02 | INFO |   Found 1 diagnostic
+2026-02-12 21:12:02 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:12:26 | INFO | ==================================================
+2026-02-12 21:12:26 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:26 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:26 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:12:26 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:12:26 | INFO |   All checks passed!
+2026-02-12 21:12:26 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:12:34 | INFO | ==================================================
+2026-02-12 21:12:34 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:34 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:34 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:12:34 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:12:34 | INFO |   All checks passed!
+2026-02-12 21:12:34 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:12:46 | INFO | ==================================================
+2026-02-12 21:12:46 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:12:46 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:12:46 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:12:46 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:12:46 | INFO |   All checks passed!
+2026-02-12 21:12:46 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:04 | INFO | ==================================================
+2026-02-12 21:13:04 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:04 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:04 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:04 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:05 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:13:05 | INFO |     --> app/leadgen/enrich/enricher.py:39:30
+2026-02-12 21:13:05 | INFO |      |
+2026-02-12 21:13:05 | INFO |   37 |         marketing_tools=wap_result.marketing_tools,
+2026-02-12 21:13:05 | INFO |   38 |         tech_stack_summary=tech_summary,
+2026-02-12 21:13:05 | INFO |   39 |         enriched_at=datetime.utcnow(),
+2026-02-12 21:13:05 | INFO |      |                              ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:13:05 | INFO |   40 |         error="; ".join(errors) if errors else None,
+2026-02-12 21:13:05 | INFO |   41 |     )
+2026-02-12 21:13:05 | INFO |      |
+2026-02-12 21:13:05 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:13:05 | INFO |   
+2026-02-12 21:13:05 | INFO |   Found 1 diagnostic
+2026-02-12 21:13:05 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:10 | INFO | ==================================================
+2026-02-12 21:13:10 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:10 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:10 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:10 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:10 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:13:10 | INFO |      --> app/leadgen/normalize/normalizer.py:128:33
+2026-02-12 21:13:10 | INFO |       |
+2026-02-12 21:13:10 | INFO |   126 |             license_info=license_info,
+2026-02-12 21:13:10 | INFO |   127 |             source_urls=source_urls,
+2026-02-12 21:13:10 | INFO |   128 |             created_at=datetime.utcnow(),
+2026-02-12 21:13:10 | INFO |       |                                 ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:13:10 | INFO |   129 |         ))
+2026-02-12 21:13:10 | INFO |       |
+2026-02-12 21:13:10 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:13:10 | INFO |   
+2026-02-12 21:13:10 | INFO |   Found 1 diagnostic
+2026-02-12 21:13:10 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:12 | INFO | ==================================================
+2026-02-12 21:13:12 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:12 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:12 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:13:12 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/website_discovery.py
+2026-02-12 21:13:12 | INFO |   All checks passed!
+2026-02-12 21:13:12 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:13 | INFO | ==================================================
+2026-02-12 21:13:13 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:13 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:13 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:13:13 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/pagespeed.py
+2026-02-12 21:13:13 | INFO |   All checks passed!
+2026-02-12 21:13:13 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:14 | INFO | ==================================================
+2026-02-12 21:13:14 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:14 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:14 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:13:14 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/wappalyzer.py
+2026-02-12 21:13:14 | INFO |   All checks passed!
+2026-02-12 21:13:14 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:16 | INFO | ==================================================
+2026-02-12 21:13:16 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:16 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:16 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:16 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/enrich/enricher.py
+2026-02-12 21:13:16 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:13:16 | INFO |     --> app/leadgen/enrich/enricher.py:39:30
+2026-02-12 21:13:16 | INFO |      |
+2026-02-12 21:13:16 | INFO |   37 |         marketing_tools=wap_result.marketing_tools,
+2026-02-12 21:13:16 | INFO |   38 |         tech_stack_summary=tech_summary,
+2026-02-12 21:13:16 | INFO |   39 |         enriched_at=datetime.utcnow(),
+2026-02-12 21:13:16 | INFO |      |                              ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:13:16 | INFO |   40 |         error="; ".join(errors) if errors else None,
+2026-02-12 21:13:16 | INFO |   41 |     )
+2026-02-12 21:13:16 | INFO |      |
+2026-02-12 21:13:16 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:13:16 | INFO |   
+2026-02-12 21:13:16 | INFO |   Found 1 diagnostic
+2026-02-12 21:13:16 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:13:24 | INFO | ==================================================
+2026-02-12 21:13:24 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:13:24 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:13:24 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:24 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/normalize/normalizer.py
+2026-02-12 21:13:24 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:13:24 | INFO |      --> app/leadgen/normalize/normalizer.py:128:33
+2026-02-12 21:13:24 | INFO |       |
+2026-02-12 21:13:24 | INFO |   126 |             license_info=license_info,
+2026-02-12 21:13:24 | INFO |   127 |             source_urls=source_urls,
+2026-02-12 21:13:24 | INFO |   128 |             created_at=datetime.utcnow(),
+2026-02-12 21:13:24 | INFO |       |                                 ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:13:24 | INFO |   129 |         ))
+2026-02-12 21:13:24 | INFO |       |
+2026-02-12 21:13:24 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:13:24 | INFO |   
+2026-02-12 21:13:24 | INFO |   Found 1 diagnostic
+2026-02-12 21:13:24 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:33:15 | INFO | ==================================================
+2026-02-12 21:33:15 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:33:15 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:33:15 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/scorer.py
+2026-02-12 21:33:15 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/score/scorer.py
+2026-02-12 21:33:15 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:33:15 | INFO |      --> app/leadgen/score/scorer.py:124:36
+2026-02-12 21:33:15 | INFO |       |
+2026-02-12 21:33:15 | INFO |   122 |             "easywin_score": easywin_score,
+2026-02-12 21:33:15 | INFO |   123 |         }
+2026-02-12 21:33:15 | INFO |   124 |         sl.last_updated = datetime.utcnow()
+2026-02-12 21:33:15 | INFO |       |                                    ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:33:15 | INFO |   125 |         scored.append(sl)
+2026-02-12 21:33:15 | INFO |       |
+2026-02-12 21:33:15 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:33:15 | INFO |   
+2026-02-12 21:33:15 | INFO |   Found 1 diagnostic
+2026-02-12 21:33:15 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:33:31 | INFO | ==================================================
+2026-02-12 21:33:31 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:33:31 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:33:31 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:33:31 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:33:31 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:33:31 | INFO |      --> app/leadgen/export/sheets.py:100:36
+2026-02-12 21:33:31 | INFO |       |
+2026-02-12 21:33:31 | INFO |    99 |     rows = [REQUIRED_COLUMNS] + [_lead_to_row(lead) for lead in scored_leads]
+2026-02-12 21:33:31 | INFO |   100 |     run_tab_name = f"Run {datetime.utcnow().strftime('%Y-%m-%d')}"
+2026-02-12 21:33:31 | INFO |       |                                    ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:33:31 | INFO |   101 |
+2026-02-12 21:33:31 | INFO |   102 |     for tab_name in ["Latest", run_tab_name]:
+2026-02-12 21:33:31 | INFO |       |
+2026-02-12 21:33:31 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:33:31 | INFO |   
+2026-02-12 21:33:31 | INFO |   Found 1 diagnostic
+2026-02-12 21:33:31 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:34:04 | INFO | ==================================================
+2026-02-12 21:34:04 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:34:04 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:34:04 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:04 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:04 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:34:04 | INFO |     --> app/leadgen/pipeline.py:80:27
+2026-02-12 21:34:04 | INFO |      |
+2026-02-12 21:34:04 | INFO |   78 |     Returns a stats dict.
+2026-02-12 21:34:04 | INFO |   79 |     """
+2026-02-12 21:34:04 | INFO |   80 |     start_time = datetime.utcnow()
+2026-02-12 21:34:04 | INFO |      |                           ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:34:04 | INFO |   81 |     stats: dict = {}
+2026-02-12 21:34:04 | INFO |   82 |     output_dir = config.OUTPUT_DIR
+2026-02-12 21:34:04 | INFO |      |
+2026-02-12 21:34:04 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:34:04 | INFO |   
+2026-02-12 21:34:04 | INFO |   error[invalid-argument-type]: Argument to function `score_leads` is incorrect
+2026-02-12 21:34:04 | INFO |      --> app/leadgen/pipeline.py:200:30
+2026-02-12 21:34:04 | INFO |       |
+2026-02-12 21:34:04 | INFO |   198 |     print("\n--- Score ---")
+2026-02-12 21:34:04 | INFO |   199 |     try:
+2026-02-12 21:34:04 | INFO |   200 |         scored = score_leads(pairs)
+2026-02-12 21:34:04 | INFO |       |                              ^^^^^ Expected `list[tuple[Lead, EnrichmentResult | None]]`, found `list[tuple[Lead, None]] | list[tuple[Lead, EnrichmentResult | None]] | list[Unknown | tuple[Lead | Unknown, None]]`
+2026-02-12 21:34:04 | INFO |   201 |         stats["scored"] = len(scored)
+2026-02-12 21:34:04 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:34:09 | INFO | ==================================================
+2026-02-12 21:34:09 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:34:09 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:34:09 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:34:09 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/export/sheets.py
+2026-02-12 21:34:09 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:34:09 | INFO |      --> app/leadgen/export/sheets.py:99:36
+2026-02-12 21:34:09 | INFO |       |
+2026-02-12 21:34:09 | INFO |    98 |     rows = [REQUIRED_COLUMNS] + [_lead_to_row(lead) for lead in scored_leads]
+2026-02-12 21:34:09 | INFO |    99 |     run_tab_name = f"Run {datetime.utcnow().strftime('%Y-%m-%d')}"
+2026-02-12 21:34:09 | INFO |       |                                    ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:34:09 | INFO |   100 |
+2026-02-12 21:34:09 | INFO |   101 |     for tab_name in ["Latest", run_tab_name]:
+2026-02-12 21:34:09 | INFO |       |
+2026-02-12 21:34:09 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:34:09 | INFO |   
+2026-02-12 21:34:09 | INFO |   Found 1 diagnostic
+2026-02-12 21:34:09 | INFO | RESULT: PASS - Type check successful
+2026-02-12 21:34:39 | INFO | ==================================================
+2026-02-12 21:34:39 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:34:39 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:34:39 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:39 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:34:39 | INFO |   warning[deprecated]: The function `utcnow` is deprecated
+2026-02-12 21:34:39 | INFO |     --> app/leadgen/pipeline.py:80:27
+2026-02-12 21:34:39 | INFO |      |
+2026-02-12 21:34:39 | INFO |   78 |     Returns a stats dict.
+2026-02-12 21:34:39 | INFO |   79 |     """
+2026-02-12 21:34:39 | INFO |   80 |     start_time = datetime.utcnow()
+2026-02-12 21:34:39 | INFO |      |                           ^^^^^^ Use timezone-aware objects to represent datetimes in UTC; e.g. by calling .now(datetime.timezone.utc)
+2026-02-12 21:34:39 | INFO |   81 |     stats: dict = {}
+2026-02-12 21:34:39 | INFO |   82 |     output_dir = config.OUTPUT_DIR
+2026-02-12 21:34:39 | INFO |      |
+2026-02-12 21:34:39 | INFO |   info: rule `deprecated` is enabled by default
+2026-02-12 21:34:39 | INFO |   
+2026-02-12 21:34:39 | INFO |   error[invalid-argument-type]: Argument to function `score_leads` is incorrect
+2026-02-12 21:34:39 | INFO |      --> app/leadgen/pipeline.py:200:30
+2026-02-12 21:34:39 | INFO |       |
+2026-02-12 21:34:39 | INFO |   198 |     print("\n--- Score ---")
+2026-02-12 21:34:39 | INFO |   199 |     try:
+2026-02-12 21:34:39 | INFO |   200 |         scored = score_leads(pairs)
+2026-02-12 21:34:39 | INFO |       |                              ^^^^^ Expected `list[tuple[Lead, EnrichmentResult | None]]`, found `list[tuple[Lead, None]] | list[tuple[Lead, EnrichmentResult | None]] | list[Unknown | tuple[Lead | Unknown, None]]`
+2026-02-12 21:34:39 | INFO |   201 |         stats["scored"] = len(scored)
+2026-02-12 21:34:39 | INFO | RESULT: BLOCK (exit code 1)
+2026-02-12 21:35:18 | INFO | ==================================================
+2026-02-12 21:35:18 | INFO | TY VALIDATOR POSTTOOLUSE HOOK TRIGGERED
+2026-02-12 21:35:18 | INFO | hook_input keys: ['session_id', 'transcript_path', 'cwd', 'permission_mode', 'hook_event_name', 'tool_name', 'tool_input', 'tool_response', 'tool_use_id']
+2026-02-12 21:35:18 | INFO | file_path: /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:35:18 | INFO | Running: uvx ty check /Users/ezekielmauricio/Documents/dev/github/public/openaiagentsdk/app/leadgen/pipeline.py
+2026-02-12 21:35:18 | INFO |   All checks passed!
+2026-02-12 21:35:18 | INFO | RESULT: PASS - Type check successful
