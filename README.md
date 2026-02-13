@@ -8,6 +8,7 @@ Multi-agent AI assistant built with **OpenAI Agents SDK**, featuring specialized
 - **✈️ Travel Agent** - Flight search via SerpAPI Google Flights (one-way & round-trip)
 - **💼 Jobs Agent** - Job search via SerpAPI Google Jobs with filters
 - **📧 Gmail Agent** - Inbox organization, email categorization, and label management
+- **📍 Leadgen Pipeline** - Google Maps lead generation with Google Sheets export and per-niche deduplication
 - **🪝 Claude Code Hooks** - Custom development hooks (UserPromptSubmit logger) + comprehensive docs in `ai_docs/`
 
 ## Architecture
@@ -44,6 +45,39 @@ flowchart LR
 User → Orchestrator Agent → Specialist Agents (Researcher/Travel/Jobs/Gmail) → Services → APIs
 ```
 
+## Leadgen Pipeline
+
+Scrape Google Maps for business leads in any niche + city and export them to a named Google Sheets tab with cross-run deduplication.
+
+### Quick Start (slash command)
+
+```
+/leadgen coffee shops | Memphis, Tennessee
+/leadgen tacos | Memphis, Tennessee
+/leadgen barbers | Nashville, Tennessee | Nashville Barbers
+/leadgen coffee shops | Memphis, Tennessee | | force   # full re-export
+```
+
+Arguments separated by `|`:
+1. **niche** (required) — e.g. `coffee shops`
+2. **city** (required) — e.g. `Memphis, Tennessee`
+3. **worksheet name** (optional) — auto-derived as `{Title Case Niche} - {City First Word}` if omitted
+4. `force` (optional) — bypasses deduplication for a full re-export
+
+Each niche+city combo writes deduplicated seen-IDs to `data/leadgen/seen_ids/{niche}_{city}.json`, so repeat runs only fetch new places.
+
+### Manual CLI
+
+```bash
+python -m app.leadgen.ingest.google_maps \
+  --query "coffee shops" \
+  --location "Memphis, Tennessee" \
+  --limit 100 \
+  --to-sheets \
+  --worksheet-name "Coffee Shops - Memphis" \
+  --seen-ids-path "data/leadgen/seen_ids/coffee_shops_memphis_tennessee.json"
+```
+
 ## Requirements
 
 - Python 3.10+
@@ -61,6 +95,10 @@ OPENAI_API_KEY=your_key_here
 SERPAPI_API_KEY=your_serpapi_key_here
 SCRAPER_SERVICE_URL=http://localhost:8001
 SCRAPER_MAX_BYTES=2000000
+
+# Leadgen / Google Sheets export
+LEADGEN_SHEETS_SPREADSHEET_ID=your_spreadsheet_id_here
+LEADGEN_SHEETS_CREDENTIALS_PATH=leadgen_service_account.json
 
 # Bright Data proxy (for BizBuySell scraping)
 BRIGHTDATA_PROXY_URL=http://username:password@host:port
@@ -142,11 +180,16 @@ Show me unread emails from last month
 ## Project Structure
 
 ```
-.claude/                         # Claude Code hooks & config
+.claude/                         # Claude Code hooks, config & slash commands
+├── commands/leadgen.md          # /leadgen slash command (niche + city → Sheets)
 ├── hooks/user_prompt_submit.py  # Logs prompts to logs/prompt_journal.jsonl
 └── settings.json                # Hook configuration
 
 ai_docs/                         # Claude Code documentation (hooks, MCP, subagents)
+
+docs/
+└── solutions/                   # Searchable institutional knowledge base
+    └── best-practices/          # Patterns and conventions documented per session
 
 app/
 ├── agents/
@@ -168,7 +211,17 @@ app/
 │   └── schemas.py           # Pydantic models for type safety
 ├── core/
 │   └── config.py            # Model configuration
+├── leadgen/
+│   ├── ingest/
+│   │   └── google_maps.py   # Google Maps scraper + CLI entry point
+│   └── export/
+│       └── sheets.py        # Google Sheets exporter (auto-creates worksheets)
 └── main.py                  # CLI entry point
+
+data/leadgen/
+├── seen_ids/                # Per niche+city deduplication state
+├── google_maps_leads.csv    # Last run CSV output
+└── google_maps_raw.json     # Last run raw JSON
 
 logs/prompt_journal.jsonl        # Auto-generated prompt log (via hook)
 bizbuysell_listings.db           # SQLite DB for business listings

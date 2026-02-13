@@ -6,14 +6,14 @@
 
 # Claude Code - keep shareable config, ignore local/personal
 .claude/settings.local.json
-.claude/skills/
-.claude/agents/
 .claude/plans/
 .claude/hooks/__pycache__/
 
 #google creds
 gmail_credentials.json
 gmail_token.pickle
+config/google_service_account.json
+leadgen_service_account.json
 
 # Logs
 logs/
