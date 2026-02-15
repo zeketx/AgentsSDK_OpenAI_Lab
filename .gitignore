@@ -15,6 +15,10 @@ gmail_token.pickle
 config/google_service_account.json
 leadgen_service_account.json
 
+# Leadgen transient outputs
+data/leadgen/google_maps_raw.json
+data/leadgen/google_maps_leads.csv
+
 # Logs
 logs/
 
